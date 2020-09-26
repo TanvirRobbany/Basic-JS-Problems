@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2</title>
+</head>
+<body>
+    <script language="javascript">
+        var i1, i2, i3, i4, i5;
+        var largest = 0; 
+        var smallest = 0;
+
+        i1 = parseInt(prompt ("Please enter first integer","0"));
+        i2 = parseInt(prompt ("Please enter second integer","0"));
+        i3 = parseInt(prompt ("Please enter third integer","0"));
+        i4 = parseInt(prompt ("Please enter fourth integer","0"));
+        i5 = parseInt(prompt ("Please enter fifth integer","0"));
+
+        largest = i1;
+        smallest = i1;
+
+
+        if ( i2 > largest )
+            { largest = i2 };
+
+        if ( i3 > largest )
+            { largest = i3};
+
+        if ( i4 > largest )
+            { largest = i4};
+
+        if ( i5 > largest )
+            { largest = i5};
+
+
+
+        if (i2 < smallest )
+            { smallest = i2};
+
+        if (i3 < smallest )
+            { smallest = i3};
+
+        if (i4 < smallest )
+            { smallest = i4};
+
+        if (i5 < smallest )
+            { smallest = i5};
+
+        document.write(largest + " is the largest");
+        document.write("<br>")
+        document.write(smallest + " is the smallest");
+    </script>
+</body>
+</html>
